@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.rchemist</groupId>
+  <artifactId>smb-gateway</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20200731183948</lastUpdated>
+  </versioning>
+</metadata>
