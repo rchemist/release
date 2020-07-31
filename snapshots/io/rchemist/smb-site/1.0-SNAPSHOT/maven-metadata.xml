@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>io.rchemist</groupId>
+  <artifactId>smb-site</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20200731.194822</timestamp>
+      <buildNumber>3</buildNumber>
+    </snapshot>
+    <lastUpdated>20200731194822</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>war</extension>
+        <value>1.0-20200731.194822-3</value>
+        <updated>20200731194822</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0-20200731.194822-3</value>
+        <updated>20200731194822</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
