@@ -52,3 +52,9 @@ nb-configuration.xml
 ## OS X
 ##############################
 .DS_Store
+/releases/io/rchemist/smb-admin/
+/releases/io/rchemist/smb-api/
+/releases/io/rchemist/smb-site/
+/snapshots/io/rchemist/smb-admin/
+/snapshots/io/rchemist/smb-api/
+/snapshots/io/rchemist/smb-site/
