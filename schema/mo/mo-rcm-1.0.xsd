@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xsd:schema xmlns="http://schema.broadleafcommerce.org/mo"
-  targetNamespace="http://schema.broadleafcommerce.org/mo"
+<xsd:schema xmlns="https://raw.githubusercontent.com/rchemist/release/master/schema/mo/mo-rcm-1.0.xsd"
+  targetNamespace="https://raw.githubusercontent.com/rchemist/release/master/schema/mo/mo-rcm-1.0.xsd"
   elementFormDefault="qualified" attributeFormDefault="unqualified"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
