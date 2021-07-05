@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>rchemist-smb</artifactId>
+        <groupId>io.rchemist</groupId>
+        <version>2.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>smb-framework-web</artifactId>
+    <groupId>io.rchemist</groupId>
+    <version>2.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>Framework-Web :: Rchemist Commerce SMB Platform</name>
+    <description>Rchemist Commerce Web Framework from BLC 4.</description>
+
+    <properties>
+        <project.uri>${project.baseUri}/../</project.uri>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.rchemist</groupId>
+            <artifactId>smb-framework</artifactId>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>io.rchemist</groupId>
+            <artifactId>smb-profile-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+        </dependency>
+
+        <!-- Spring Plugins -->
+        <dependency>
+            <groupId>org.springframework.social</groupId>
+            <artifactId>spring-social-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.social</groupId>
+            <artifactId>spring-social-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.social</groupId>
+            <artifactId>spring-social-config</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.social</groupId>
+            <artifactId>spring-social-security</artifactId>
+        </dependency>
+
+        <!-- Social Login Facebook -->
+        <dependency>
+            <groupId>org.springframework.social</groupId>
+            <artifactId>spring-social-facebook</artifactId>
+            <version>2.0.3.RELEASE</version>
+        </dependency>
+
+        <!-- Social Login Naver -->
+        <dependency>
+            <groupId>com.mornya.lib.spring.social.naver</groupId>
+            <artifactId>spring-social-naver</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <!-- Social Login Twitter -->
+        <dependency>
+            <groupId>org.springframework.social</groupId>
+            <artifactId>spring-social-twitter</artifactId>
+            <version>1.1.2.RELEASE</version>
+        </dependency>
+
+        <!-- Social Login Kakao -->
+        <dependency>
+            <groupId>io.rchemist</groupId>
+            <artifactId>social-kakao</artifactId>
+            <version>2.0.1-SNAPSHOT</version>
+            <type>jar</type>
+        </dependency>
+
+    </dependencies>
+
+</project>
