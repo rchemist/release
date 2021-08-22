@@ -106,3 +106,7 @@ Front Site
 - mvn -DaltDeploymentRepository=snapshot::default::file:../github-release/snapshots clean deploy -DskipTests
 - mvn -DaltDeploymentRepository=release::default::file:../github-release/releases clean deploy -DskipTests
 - github-release repository를 commit 한다
+
+## 스냅샷의 2일 초과한 데이터 제거
+
+find ./snapshots/io/rchemist/smb-*/2.0.1-SNAPSHOT/smb-*.* -mtime +2 -type f -ls -exec rm {} \;
