@@ -109,4 +109,4 @@ Front Site
 
 ## 스냅샷의 2일 초과한 데이터 제거
 
-find ./snapshots/io/rchemist/smb-*/2.0.1-SNAPSHOT/smb-*.* -mtime +2 -type f -ls -exec rm {} \;
+find ./snapshots/io/rchemist/smb-*/2.0.1-SNAPSHOT/smb-*.* -mtime +1 -type f -ls -exec rm {} \;
