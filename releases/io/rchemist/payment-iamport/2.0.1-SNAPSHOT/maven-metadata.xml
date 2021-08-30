@@ -5,20 +5,20 @@
   <version>2.0.1-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210830.074032</timestamp>
-      <buildNumber>86</buildNumber>
+      <timestamp>20210830.125358</timestamp>
+      <buildNumber>87</buildNumber>
     </snapshot>
-    <lastUpdated>20210830074032</lastUpdated>
+    <lastUpdated>20210830125358</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>2.0.1-20210830.074032-86</value>
-        <updated>20210830074032</updated>
+        <value>2.0.1-20210830.125358-87</value>
+        <updated>20210830125358</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2.0.1-20210830.074032-86</value>
-        <updated>20210830074032</updated>
+        <value>2.0.1-20210830.125358-87</value>
+        <updated>20210830125358</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
