@@ -3,9 +3,11 @@
   <groupId>io.rchemist</groupId>
   <artifactId>social-kakao</artifactId>
   <versioning>
+    <release>2.0.1-ENHANCE-OFFER</release>
     <versions>
       <version>2.0.1-SNAPSHOT</version>
+      <version>2.0.1-ENHANCE-OFFER</version>
     </versions>
-    <lastUpdated>20210923063342</lastUpdated>
+    <lastUpdated>20210924091908</lastUpdated>
   </versioning>
 </metadata>
