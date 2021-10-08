@@ -3,10 +3,12 @@
   <groupId>io.rchemist</groupId>
   <artifactId>smb-modules</artifactId>
   <versioning>
+    <release>2.0.1-ENHANCE-OFFER</release>
     <versions>
       <version>2.0-SNAPSHOT</version>
       <version>2.0.1-SNAPSHOT</version>
+      <version>2.0.1-ENHANCE-OFFER</version>
     </versions>
-    <lastUpdated>20211005092114</lastUpdated>
+    <lastUpdated>20211008032522</lastUpdated>
   </versioning>
 </metadata>

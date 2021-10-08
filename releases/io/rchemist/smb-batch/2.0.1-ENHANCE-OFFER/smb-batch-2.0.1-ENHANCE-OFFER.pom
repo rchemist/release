@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>rchemist-smb</artifactId>
+        <groupId>io.rchemist</groupId>
+        <version>2.0.1-ENHANCE-OFFER</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>smb-batch</artifactId>
+    <groupId>io.rchemist</groupId>
+    <packaging>jar</packaging>
+    <name>Batch module :: Rchemist Commerce SMB Platform</name>
+    <description>Rchemist Batch Modules from BLC 4.</description>
+
+    <properties>
+        <project.uri>${project.baseUri}/../</project.uri>
+        <!--<spring-cloud-starter-task.version>2.1.0.RELEASE</spring-cloud-starter-task.version>-->
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.rchemist</groupId>
+            <artifactId>smb-commerce</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.rchemist</groupId>
+            <artifactId>smb-cms</artifactId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.quartz-scheduler/quartz -->
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

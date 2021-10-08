@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>rchemist-smb</artifactId>
+        <groupId>io.rchemist</groupId>
+        <version>2.0.1-ENHANCE-OFFER</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>smb-profile-web</artifactId>
+    <groupId>io.rchemist</groupId>
+    <version>2.0.1-ENHANCE-OFFER</version>
+    <packaging>jar</packaging>
+    <name>Profile :: Rchemist Commerce SMB Platform</name>
+    <description>Rchemist Commerce Profile Web from BLC 4.</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.rchemist</groupId>
+            <artifactId>smb-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.rchemist</groupId>
+            <artifactId>smb-profile</artifactId>
+        </dependency>
+    </dependencies>
+
+
+</project>
